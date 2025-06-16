@@ -43,10 +43,9 @@ Create a .env file in the root of your project and add your OpenAI API key:
     ```
 Note: Make sure you're using a paid-tier API key.
 Using a free-tier key or one that has exceeded its quota will result in the following error:
-    ```
-    openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-
-    ```
+```
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+ ```
 
 
 Running the App
