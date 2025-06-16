@@ -17,8 +17,8 @@ A simple Langchain + Streamlit application to interact with OpenAI models and ge
 
 1. **Clone the Repository**  
    ```bash
-   git clone <your-repo-url>
-   cd <project-folder>
+   git clone git@github.com:dotdotsg/Langchain_QnA.git
+   cd Langchain_QnA
     ```
 
 
