@@ -55,11 +55,11 @@ Running the App
 
 Once launched, open the browser and interact with the UI to:
 
-Select a model
+[1] Select a model
 
-Enter a question
+[2] Enter a question
 
-View the OpenAI-generated response
+[3] View the OpenAI-generated response
 
 ## 🧰 Tech Stack
 🛠️ Langchain
