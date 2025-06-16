@@ -25,34 +25,34 @@ A simple Langchain + Streamlit application to interact with OpenAI models and ge
    
 2. **Create and Activate a Virtual Environment**
 
-```bash
-python -m venv .venv
-source .venv/bin/activate      # On Windows: .venv\Scripts\activate
-```
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+    ```
 
 3. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Create a .env File**
 
 Create a .env file in the root of your project and add your OpenAI API key:
-```bash
-OPENAI_API_KEY=your_paid_openai_api_key_here
-```
+    ```bash
+    OPENAI_API_KEY=your_paid_openai_api_key_here
+    ```
 Note: Make sure you're using a paid-tier API key.
 Using a free-tier key or one that has exceeded its quota will result in the following error:
-```
-openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+    ```
+    openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
 
-```
+    ```
 
 
 Running the App
-```
-streamlit run app.py
-```
+    ```
+    streamlit run app.py
+    ```
 
 Once launched, open the browser and interact with the UI to:
 
